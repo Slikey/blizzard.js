@@ -55,7 +55,9 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
     "codecov": "./node_modules/.bin/codecov",
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest",
+    "gen-load": "node ./gen/download.js",
+    "gen": "node ./gen/generate.js"
   },
   "jest": {
     "collectCoverage": true,

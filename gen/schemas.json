@@ -1,0 +1,29 @@
+{
+  "root": "https://develop.battle.net/api/pages/content/documentation",
+  "games": {
+    "battle-net": [
+      "oauth-apis",
+      "oauth-apis-cn"
+    ],
+    "diablo-3": [
+      "community-apis",
+      "community-apis-cn",
+      "game-data-apis"
+    ],
+    "hearthstone": [
+      "game-data-apis"
+    ],
+    "starcraft-2": [
+      "community-apis",
+      "community-apis-cn",
+      "game-data-apis"
+    ],
+    "world-of-warcraft": [
+      "game-data-apis",
+      "profile-apis"
+    ],
+    "world-of-warcraft-classic": [
+      "game-data-apis"
+    ]
+  }
+}
